@@ -1,0 +1,36 @@
+Facebook
+	- Registered with my Facebook account
+	- Instructions for installing SDK: https://developers.facebook.com/quickstarts/656579551142062/?platform=android
+		http://stackoverflow.com/questions/19961828/using-facebook-sdk-in-android-studio
+		http://stackoverflow.com/questions/28642002/facebook-sdk-3-23-0-with-android-studio-1-1-0
+	- Need to add hash key
+		http://stackoverflow.com/questions/11896304/openssl-is-not-recognized-as-an-internal-or-external-command
+		
+Twitter
+	- Signed up with Twitter account
+	- Will have to add dependency when Twitter development starts
+		https://dev.twitter.com/twitter-kit/android/twitter
+	
+Youtube
+	- Set up API key on google developer console. Need to add SHA1 key.
+		https://console.developers.google.com/project/seismic-axiom-95013/apiui/credential#
+	- Will have to add a dependency when beginning API development
+		
+AP News - https://developer.ap.org/ap-content-api
+	- Documentation
+		https://developer.ap.org/sites/default/files/AP_Content_API_Developer_Guide.pdf
+	- Not clear on how to get API key. May not be feasible
+	
+Feedzilla
+	- May be the only News API we need
+	- https://code.google.com/p/feedzilla-api/wiki/RestApi
+	- Actually doesn't work any more
+	
+New York Times API
+	- Registered with Facebook
+	- Documentation: http://developer.nytimes.com/docs
+	- Can search articles and get most popular articles
+	- Can create our own categories and search API with them
+	
+Google+ API
+	- Well documented but it doesn't seem like you can pull peoples posts. Maybe check this out more.

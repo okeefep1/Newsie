@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Newsie</string>
+
+    <string name="action_edit_topic_selections">Edit Topic Selections</string>
+    <string name="action_delete">Delete Topic</string>
+    <string name="action_edit_name">Edit Topic Name</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Parse values -->
+    <string name="parse_app_id">xC2A2ZeG48YPAfm88F0dXIDnOa5F5LmWSYb8D53M</string>
+    <string name="parse_client_key">zu6QERD384SPGb68tf0PR2faFtIFrkeRXywr5sJc</string>
+
+    <!-- Facebook Values -->
+    <string name="fb_app_id">656579551142062</string>
+
+    <color name="state_activated_color">#000000</color>
+    <color name="state_checked_color">#000000</color>
+    <color name="state_pressed_color">#000000</color>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_topic">Topic</string>
+    <string name="title_activity_topic_selections">Edit Selections</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="email_hint">Email</string>
+    <string name="pass_hint">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="confirm_pass_hint">Confirm Password</string>
+    <string name="forgot_pass">Forgot Password</string>
+    <string name="reset_pass_msg">Please enter your email below and you will receive an email shortly with instructions on resetting your password. If you receive nothing check the provided email and try again:</string>
+    <string name="new_topic">New Topic</string>
+    <string name="topic_title">Topic Title</string>
+    <string name="next">Next</string>
+    <string name="add">Add</string>
+    <string name="search_friends">Facebook Likes</string>
+    <string name="save">Save</string>
+    <string name="edit_topic_message">Please enter the new topic name.</string>
+    <string name="search_subscriptions">Instagram Follows</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save_cont"><![CDATA[Save & Continue]]></string>
+    <string name="remove">Remove</string>
+    <string name="cont">Continue</string>
+    <string name="mng_fb_likes">Manage Facebook Likes</string>
+    <string name="insta_login">Toggle Instagram</string>
+    <string name="mng_insta_selections">Manage Instagram Selections</string>
+    <string name="search_twit_follows">Twitter Follows</string>
+    <string name="mng_twit_selections">Manage Twitter Selections</string>
+    <string name="finish">Finish</string>
+    <string name="title_activity_accounts">My Accounts</string>
+    <string name="no_insta">I don\'t want to use Instagram</string>
+    <string name="no_fb">I don\'t want to use Facebook</string>
+    <string name="no_twitter">I don\'t want to use Twitter</string>
+
+</resources>

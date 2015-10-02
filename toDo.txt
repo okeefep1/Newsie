@@ -1,0 +1,9 @@
+Facebook:
+	- Get better images somehow. This may be impossible. May have to use a different GraphRequest.
+
+General:
+	- Don't allow duplicates when adding selections in new topic or edit topic
+
+Testing:
+	- Videos not available through Twitter API. Solution is to make picture of video provided clickable to go to post
+	online or in app.

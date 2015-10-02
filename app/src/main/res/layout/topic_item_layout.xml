@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="top|left"
+    android:gravity="top|left"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="top|left"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/ivSocialMediaIcon"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="8dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="top|left"
+            android:layout_gravity="top|left">
+            <TextView
+                android:id="@+id/tvTopicName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/tvTimeStamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#7b000000"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top|left"
+        android:layout_gravity="top|left"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/tvTopicContent"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivPostImage"
+            android:visibility="visible"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+        <VideoView
+            android:layout_width="fill_parent"
+            android:layout_height="350dp"
+            android:id="@+id/vvPostVideo"
+            android:visibility="gone"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:scaleType="fitXY"
+            android:paddingBottom="8dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>
